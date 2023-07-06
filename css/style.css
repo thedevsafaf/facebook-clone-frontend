@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#main-session{
+    height: 100vh;
+    width: 100%;
+    background: #f0f2f5;;
+}
+
+.wrapper{
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
+    max-width: 960px; /* 2 */
+    padding-right: 10px; /* 3 */
+    padding-left:  10px; /* 3 */
+}
+
+.main-container{
+    /* background: rgb(75, 165, 113); */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container .left{
+    height: 600px;
+    width: 55%;
+    /* background: orangered; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -45px;
+}
+
+.main-container .left .logo-container{
+    /* background: rgb(58, 97, 85); */
+}
+
+.main-container .left .logo-container img{
+    margin: -30px;
+}
+
+.main-container .left .heading-container h2{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-top: 15px;
+}
+
+.main-container .right{
+    height: 600px;
+    width: 45%;
+    /* background: rgb(117, 34, 96); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container .right .form-container{
+    width: 85%;
+    /* background-color: orange; */
+    padding: 20px;
+}
+
+.main-container .right .form-container form{
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+
+
+.main-container .right .form-container form input{
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 80%;
+    margin-left: 22px;
+    margin-bottom: 14px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+}
+
+/* .main-container .right .form-container form input:last-child{
+    margin-bottom: 50px;
+} */
+
+.main-container .right .form-container form .login-btn{
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 80%;
+    margin-left: 22px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    background: #1877f2;
+    color: #fff;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.main-container .right .form-container form .forget-password{
+    color: #1877f2;;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 124px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+
+}
+
+.main-container .right .form-container form .line{
+    align-items: center;
+    border-bottom: 1px solid #c8c9ca;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+.main-container .right .form-container form .signup-btn{
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 48px;
+    padding: 0 16px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #42b72a;
+    display: inline-block;
+    margin-left: 105px;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+}
+
+.main-container .right .create-page{
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+    margin-left: 28px;
+}
+
+.main-container .right .create-page .create-page-link{
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
